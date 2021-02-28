@@ -127,6 +127,8 @@ body {
 width: 100%;
 }
 
+/* header */
+
 h1 {
 font-size: 3.5rem;   
 }
@@ -150,6 +152,8 @@ width: 20%;
 width: 55%;
 }
 
+/* banner */
+
 .profile-img {
 width: 50%
 }
@@ -158,30 +162,108 @@ width: 50%
 width: 70%;
 }
 
+/* skills section */
+h3{
+text-align: center;
+margin-bottom: 1rem;
+}
 .skill-row{
 width: 100%;
 margin: 0 10px;
 }
 
 .skill-text {
-width: 40%;
+width: 90%;
 text-align: center;
+margin-bottom: 1.5rem;
 
 }
 
 .chilli-img{
-width: 35%;
-margin: 0 20px;
+display: none;
 }
 
 .code-img{
-width: 40%;
+display: none;
 }
-
+/* contact */
+.contact-message{
+width: 90%;
+}
  }
 
  @media(max-width: 768px){
 
+h1 {
+font-size: 3.5rem;   
+}
+      
+h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+.top-container {
+position: relative;
+}
+.top-cloud {
+left: 4rem;
+width: 20%;
+}
+      
+.bottom-cloud {
+display: none;
+width: 20%;
+}
+
+.mountain{
+width: 55%;
+}
+
+/* banner */
+
+.profile-img {
+width: 40%
+}
+
+h2{
+font-size: 2.5rem;
+}
+.intro-text {
+width: 70%;
+font-size: 1.5rem;
+}
+
+/* skills section */
+h3{
+font-size: 2rem;
+text-align: center;
+margin-bottom: 1rem;
+}
+.skill-row{
+width: 100%;
+margin: 0 10px;
+}
+   
+.skill-text {
+width: 90%;
+text-align: center;
+margin-bottom: 1.5rem;
+font-size: 1.5rem;
+}
+   
+.chilli-img{
+   display: none;
+}
+   
+.code-img{
+display: none;
+}
+/* contact */
+.contact-message{
+width: 90%;
+font-size: 1.5rem;
+}
+   
  }
 
  @media(max-width: 1020px){
